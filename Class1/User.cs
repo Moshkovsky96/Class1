@@ -11,6 +11,7 @@ namespace Class1
         public string Id { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public double Balance { get; set; }
         public bool Check(string email, string password)
         {
 
@@ -21,6 +22,7 @@ namespace Class1
             
             else
                 return false;
+        
         }
 
     }
